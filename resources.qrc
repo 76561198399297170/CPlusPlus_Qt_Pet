@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/normal">
+        <file>resources/normal/img_1.png</file>
+        <file>resources/normal/img_2.png</file>
+        <file>resources/normal/img_3.png</file>
+        <file>resources/normal/img_4.png</file>
+        <file>resources/normal/img_5.png</file>
+        <file>resources/normal/img_6.png</file>
+        <file>resources/normal/img_7.png</file>
+        <file>resources/normal/img_8.png</file>
+    </qresource>
+    <qresource prefix="/wink">
+        <file>resources/wink/img_1.png</file>
+        <file>resources/wink/img_2.png</file>
+        <file>resources/wink/img_3.png</file>
+        <file>resources/wink/img_4.png</file>
+        <file>resources/wink/img_5.png</file>
+        <file>resources/wink/img_6.png</file>
+        <file>resources/wink/img_7.png</file>
+        <file>resources/wink/img_8.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/logo.png</file>
+    </qresource>
+</RCC>

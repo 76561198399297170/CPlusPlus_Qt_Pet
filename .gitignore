@@ -1,0 +1,97 @@
+# ==============================================
+# 1. C++ 编译产物（目标文件、库、二进制文件）
+# ==============================================
+*.slo
+*.lo
+*.o          # 目标文件
+*.a          # 静态库
+*.la
+*.lai
+*.so         # 动态库（Linux）
+*.so.*
+*.dll        # 动态库（Windows）
+*.dylib      # 动态库（macOS）
+*.exe        # 可执行文件
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb        # 调试符号（Windows）
+
+
+# ==============================================
+# 2. Qt 自动生成文件（核心忽略项）
+# ==============================================
+# qmake 缓存和临时文件
+.qmake.cache
+.qmake.stash
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+
+# moc/uic/qrc 生成的代码（Qt 元对象/UI/资源编译产物）
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h       # UI 设计器生成的头文件
+*.qmlc       # QML 编译缓存
+*.jsc        # JS 编译缓存
+*_qmlcache.qrc  # QML 缓存资源文件
+
+# 翻译文件（.qm 是编译后的翻译，源文件 .ts 需保留）
+*.qm
+
+# 项目配置（用户本地配置，不同机器不同）
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.prl        # 链接器配置
+*.moc        # moc 临时文件
+
+# 构建目录（Qt 常见的 build-xxx 目录）
+build-*/
+Makefile*    # 生成的 Makefile
+*.Debug      # MinGW 调试目录
+*.Release    # MinGW 发布目录
+
+
+# ==============================================
+# 3. IDE/编辑器生成文件
+# ==============================================
+# Qt Creator
+*.autosave
+CMakeLists.txt.user*  # CMake 项目的 Qt Creator 配置
+*creator.user*        # 导入项目的本地配置
+
+# Visual Studio
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+
+# Vim
+*.swp
+
+
+# ==============================================
+# 4. 其他临时文件/系统文件
+# ==============================================
+*.bak        # 备份文件
+*.tmp        # 临时文件
+.DS_Store    # macOS 系统文件
+Thumbs.db    # Windows 系统文件
+
+
+# ==============================================
+# 5. 其他（按需保留）
+# ==============================================
+# Python 字节码（如果项目不含 Python 可删除）
+*.pyc
+
+# Qt 单元测试（如果项目不含单元测试可删除）
+target_wrapper.*

@@ -1,0 +1,29 @@
+# ninja log v6
+21	26	7740986289448514	clean	8ce4482965221c15
+24	132	7741084006802889	Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+520	605	7740986295113224	CMakeFiles/Qt_pet.dir/Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp.obj	4f3429ab49780725
+24	132	7741084006802889	Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+24	132	7741084006802889	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+24	132	7741084006802889	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+465	2617	7741062215395603	CMakeFiles/Qt_pet.dir/widget.cpp.obj	a2ac700ffa45fe66
+465	2339	7741083252220368	CMakeFiles/Qt_pet.dir/Qt_pet_autogen/mocs_compilation.cpp.obj	92a2475f6150e0bd
+2617	2889	7741062236912736	Qt_pet.exe	e8ec4afc5258dbce
+467	2255	7741083252240306	CMakeFiles/Qt_pet.dir/main.cpp.obj	c8ddf4c0aad2edec
+469	513	7740986294983655	Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp	47ca8b0586611b8a
+469	513	7740986294983655	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp	47ca8b0586611b8a
+9	21	7740986289318944	CMakeFiles/clean.additional	30cb717c4d7bf639
+467	2210	7741062215415524	CMakeFiles/Qt_pet.dir/dragFilter.cpp.obj	6bf683618bcc06c
+19	114	7741092800380962	Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+19	114	7741092800380962	Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+19	114	7741092800380962	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+19	114	7741092800380962	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+114	162	7741092801746391	Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp	47ca8b0586611b8a
+114	162	7741092801746391	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp	47ca8b0586611b8a
+166	254	7741092801848304	CMakeFiles/Qt_pet.dir/Qt_pet_autogen/EWIEGA46WW/qrc_resources.cpp.obj	4f3429ab49780725
+164	2300	7741092801838398	CMakeFiles/Qt_pet.dir/widget.cpp.obj	a2ac700ffa45fe66
+22	124	7741092966167044	Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+22	124	7741092966167044	Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+22	124	7741092966167044	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/timestamp	dc85bcfb61670f8b
+22	124	7741092966167044	E:/MyProjects/C++Qt LearnProject/Qt_pet/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/Qt_pet_autogen/mocs_compilation.cpp	dc85bcfb61670f8b
+125	1761	7741092967198119	CMakeFiles/Qt_pet.dir/main.cpp.obj	c8ddf4c0aad2edec
+1761	2118	7741092983568865	Qt_pet.exe	e8ec4afc5258dbce
