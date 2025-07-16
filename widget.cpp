@@ -87,13 +87,13 @@ void Widget::loadRoleActResources()
     };
 
     func_pt(RoleAct::Normal, ":/normal/resources/normal/img_%d.png", 8);
-    func_pt(RoleAct::Wink, ":/normal/resources/wink/img_%d.png", 8);
+    func_pt(RoleAct::Wink, ":/wink/resources/wink/img_%d.png", 8);
 }
 
 void Widget::initMenu()
 {
-    this->m_menu->addAction("正常");
-    this->m_menu->addAction("眨眼");
+    this->m_menu->addAction("Normal");
+    this->m_menu->addAction("Wink");
 
     QAction* act = new QAction("隐藏");
     connect(act, &QAction::triggered, [this]()
